@@ -1,0 +1,16 @@
+opencv-python>=4.8
+numpy>=1.24
+scipy>=1.11
+torch>=2.0
+ultralytics>=8.0
+openmim
+inference-sdk>=0.9
+python-dotenv>=1.0
+matplotlib>=3.7
+
+# MMPose / MMDet are installed automatically by pose_detector.py on first run.
+# To install manually:
+#   pip install openmim
+#   mim install mmengine mmdet
+#   pip install mmpose --no-deps
+#   pip install xtcocotools json-tricks munkres
